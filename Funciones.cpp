@@ -34,3 +34,19 @@ void cerditos (){
     system("cls");
 
 }
+
+// estructura general del juego una vez definido quien empieza
+void empiezo_estructura_juego(string jugador1[], string jugador2[], int& acu_trufas_jug1, acu_trufas_jug2,
+    bool& jugador_empieza, int& lanzar_mejor_dado1, int& lanzar mejor_dado2, int& oinks_jug1, int& oinks2){
+ 
+            bool turno_jugador = jugador_empieza;
+            int ronda = 0;
+            int acu_trufas_jug1=0;
+            int acu_trufas_jug2=0;
+            int trufas_ronda = 0;
+            int cont_turnos = 0;
+            int cant_lanzamientos1 =0, cant_lanzamientos2 = 0;
+            bool check_3_dados = false;
+    
+    }
+
